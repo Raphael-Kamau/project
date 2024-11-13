@@ -1,0 +1,148 @@
+body {
+    font-family: ink free;
+    background-color: rgb(8, 8, 8);
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(43, 40, 40);
+    border-radius: 8px;
+}
+/* logo */
+#Logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;   
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+nav ul li {
+    margin-right: 30px;/* Space between navigation items */
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold; 
+    padding: 8px;
+    color: #fff;
+    border-radius: 4px;
+}
+a:hover {
+    background-color: rgb(65, 63, 63);
+    border-bottom: 2px solid red;    
+    transition: 1s;
+}
+a.active {
+    border-bottom: 2px solid red;
+}
+/* Image used */
+#home {
+    background-image: url(whatsaap\ \(5\).jpg);
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px 8px 600px 600px;
+    color: #fff;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 50px;
+}
+p h1 {
+    margin: 20px;
+}
+#about_img {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-image: url(whatsaap\ \(2\).jpg);
+    padding: 10px;
+    border-radius: 4px;
+    margin: 20px;
+    color: #fff;
+}
+table {
+    border-spacing: 20px;
+    border-collapse: separate;
+}
+td {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    padding: 10px;
+    color: #fff;
+}
+#quote {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: ink free;
+}
+#quote_img {
+    height: 300px;
+    width: 300px;
+    border-radius: 8px;
+}
+#portfolio_img {
+    height: 400px;
+    width: 200px;
+}
+.container_2 {
+    background-image: url(a.jpg);
+    padding: 10px;
+    border-radius: 4px;
+    margin: 20px;
+    color: #fff;
+}
+.container_3 {
+    background-image: url(whatsaap\ \(7\).jpg);
+    padding: 10px;
+    border-radius: 4px;
+    margin: 20px;
+    color: #fff;
+}
+.blog_header {
+    margin-left: 20%;
+    font-family: ink free;
+}
+video {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 20px;
+}
+input {
+    border-radius: 8px;
+    font-family: ink free;
+    color: #fff;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    padding: 4px;
+    cursor: pointer;
+}
+.td-c {
+    text-align: center;
+}
+#contact table {
+    display: flex;
+}
+footer {
+    background-color: rgb(167, 15, 15);
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-align: center;
+    color: #fff;
+    padding: 4px;
+}
